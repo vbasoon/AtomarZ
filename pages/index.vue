@@ -19,10 +19,12 @@ export default {};
 
 <style>
 .wrapper {
+  width: 480px;
+  height: 1681px;
   max-width: 500px;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  border: ;
+  border: 2px solid black;
 }
