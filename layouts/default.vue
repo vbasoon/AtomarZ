@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <Header />
     <main>
       <div class="container">
@@ -25,12 +25,24 @@ export default {
 <style>
 html {
 }
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  letter-spacing: -0.005em;
+}
+
+.wrapper {
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+  background: #f5f5f7;
+  outline: 1px solid black;
 }
 </style>
