@@ -4,12 +4,12 @@
       <div class="row top">
         <div class="left">
           <span class="logo"
-            ><a href="#"><img src="images/logo.svg" alt="" /></a
+            ><a href="#"><img src="/assets/images/logo.svg" alt="" /></a
           ></span>
           <span class="line"></span>
           <span class="icon-app">
             <a href="#">
-              <img src="images/app_icon.png" alt="" />
+              <img src="/assets/images/app_icon.png" alt="" />
             </a>
           </span>
         </div>
@@ -20,7 +20,7 @@
             <button class="btn btn2 active">Register</button>
           </div>
           <div class="burger">
-            <p>M</p>
+            <span><img src="" alt="" /></span>
           </div>
         </div>
       </div>
